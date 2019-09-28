@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Chef's Kitchen</title>
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <link href="index.css" rel="stylesheet">
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+
+</head>
+
+<body>
+    <header class="header">
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div id="header-logo">
+                <img src="images/restaurant_logo.png">
+            </div>
+            <a class="navbar-brand ml-lg-3" href="index.html">
+                <h1 id="header-heading">Chef's Kitchen</h1>
+                <span>The Ulitmate Bistro</span>
+            </a>
+
+            <button id="navbarToggle" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="nav navbar-nav flex-row-lg" id="navList">
+
+                    <li>
+                        <a class="nav-link visible-small visible-medium active" href="index.html">
+                            <span><i class="fa fa-home"></i></span>Home</a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="menu-categories.html">
+                            <span><i class="fa fa-cutlery"></i></span>Menu</a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="#">
+                            <span><i class="fa fa-info-circle"></i></span>About</a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="#">
+                            <span><i class="fa fa-asterisk"></i></span>Awards</a>
+                    </li>
+                    <li id="phone">
+                        <a class="nav-link" href="tel:460-703-6574"><span><i
+                                    class="fa fa-phone-square"></i></span>460-703-6574</a>
+                        <div>*We Deliver</div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <div class="call-btn ">
+        <a href="tel:460-703-6574"><span><i class="fa fa-phone-square"></i></span>460-703-6574</a>
+    </div>
+    <div>*We Deliver</div>
+
+    <div class="container-fluid">
+        <div class="jumbotron">
+            <!-- Restaurant Image -->
+        </div>
+
+        <!-- Home Tiles -->
+        <div id="home-tile" class="row">
+
+            <div class="col-lg-4 col-sm-6 col-xs-12">
+                <a href="menu-categories.html">
+                    <div id="menu-tile"><span>Menu</span></div>
+                </a>
+            </div>
+
+            <div class="col-lg-4 col-sm-6 col-xs-12">
+                <a href="#">
+                    <div id="specials-tile"><span>Specials</span></div>
+                </a>
+            </div>
+
+            <div class="col-lg-4 col-sm-12 col-xs-12">
+                <a href="#" target="_blank">
+                    <div id="map-tile"><span>Map</span></div>
+                </a>
+            </div>
+
+        </div>
+    </div>
+
+    <footer class="panel-footer">
+        <div class="container">
+            <div class="row">
+                <section id="hours" class="col-sm-4">
+                    <span>Hours:</span><br>
+                    Sun-Thurs: 11:15 - 10:00pm<br>
+                    Fri: 11:15am - 2:30pm<br>
+                    Saturday Closed
+                    <hr class="visible-small">
+                </section>
+
+                <section id="address" class="col-sm-4">
+                    <span>Address:</span><br>
+                    7105 Reisterstown Road<br>
+                    Baltimore, MD 21215
+                    <p>* Delivery area within 3-4 miles, with minimum order of $20 plus $3 charge for all deleveries.
+                    </p>
+                    <hr class="visible-small">
+                </section>
+
+                <section id="testimonials" class="col-sm-4">
+                    <p>"The best restaurant I've been to! And that's saying a lot, since I've been to many!"</p>
+                    <p>"Amazing food! Great service! Couldn't ask for more! I'll be back again and again!"</p>
+                </section>
+            </div>
+            <div class="text-center copyright">&copy; Copyright Chef's Kitchen</div>
+
+        </div>
+
+    </footer>
+
+
+</body>
+
+</html>
